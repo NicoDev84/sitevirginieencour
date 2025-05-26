@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@keyframes slideshow {
+    0%, 25% {
+      background-image: url('https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    }
+    30%, 50% {
+      background-image: url('https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    }
+    55%, 75% {
+      background-image: url('https://images.unsplash.com/photo-1534361960057-19889db9621e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    }
+    80%, 100% {
+      background-image: url('https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    }
+  }
+  
+  .animate-slideshow {
+    animation: slideshow 20s infinite;
+  }
