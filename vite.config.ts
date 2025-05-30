@@ -7,4 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   assetsInclude: ['**/*.JPG'], // Inclure les fichiers .JPG en majuscules
   base: '/sitevirginieencour/', // Ajout de la base URL pour GitHub Pages
+  build: {
+    outDir: 'docs' // Générer les fichiers dans le dossier docs au lieu de dist
+  }
 })
